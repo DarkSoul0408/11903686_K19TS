@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+	background: url(../Image/back.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.wrapper{
+	
+
+}
+.navbar{
+	position: fixed;
+	height: 90px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	position: absolute;
+	filter: brightness(0) invert(1);
+	width: 110px;
+	height: 80px;
+	padding: 10px 50px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+.left{
+	border: 2px solid rgb(66, 66, 66);
+	color: white;
+	display: inline-block;
+	position: absolute;
+	left: 172px;
+	top: 10px;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	transition: .4s;
+}
+.column {
+	float: left;
+    width: 43%;
+    padding: 26px;
+    margin-top: 191px;
+    margin-left: 42px;
+}
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	  }
+
+	  .btn{
+		margin: 0px 9px;
+		background-color: grey;
+		color: white;
+		padding: 4px 14px;
+		border: 2px solid grey;
+		border-radius: 25px;
+		font-size: 18px;
+		cursor: pointer;
+		 
+	}
+	input[type=text],[type=password]{
+		text-align: center;
+display: block;
+width: 236px;
+padding: 11px;
+border: 2px solid black;
+margin: 10px;
+border-radius: 6px;
+}
+.fg{
+	color: white;
+	background-color: grey;
+}
+.l{
+	color: white;
+	background-color: grey;
+	text-align: center;
+	margin: 20px 80px;
+}
+
+.nd{
+color: white;
+background-color: rgba(0, 0, 0, 0.514);
+margin: 100px ;
+
+}
+.live{
+	margin: 50px;
+}
+
+
+	
+.columnn {
+	float: left;
+    width: 22%;
+    padding: 1px;
+    margin-left: 35px;
+
+  }
+  
+  /* Clear floats after image containers */
+  .roww::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .las{
+	  background-color: rgb(209, 206, 206);
+		  font-size: 18px;
+	  font-family: 'Roboto', sans-serif;  
+	}
+.bar{
+	background-color: rgb(66, 66, 66);
+}
